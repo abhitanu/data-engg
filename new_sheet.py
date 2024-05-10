@@ -32,7 +32,7 @@ result = sheet.values().get(spreadsheetId=spreadsheet_id, range=sheet_range).exe
 values = result.get('values', [])
 
 if not values:
-    print('No data found.')
+    print('No data found...starting in github')
 else:
     print('Data:')
     for row in values:
